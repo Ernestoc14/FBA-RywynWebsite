@@ -8,7 +8,7 @@ export default function Home() {
     <div className="text-black">
       <Head>
         <title>Rywyn Resistance Bands</title>
-        <link rel="icon" href="/favicn.ico" />
+        <link rel="icon" href="images/rywyn-logo.jpeg" />
       </Head>
       <Header />
       <Main />

@@ -23,22 +23,6 @@ export default function Footer() {
                 >
                   Merch
                 </a>
-              </li>{" "}
-              <li>
-                <a
-                  className="hover:text-gray-900 transition-colors duration-200 text-2xl"
-                  href="/"
-                >
-                  Brand
-                </a>
-              </li>{" "}
-              <li>
-                <a
-                  className="hover:text-gray-900 transition-colors duration-200 text-2xl"
-                  href="/"
-                >
-                  Meetups
-                </a>
               </li>
             </ul>
           </li>
@@ -61,14 +45,6 @@ export default function Footer() {
                   href="/"
                 >
                   Press
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-gray-900 transition-colors duration-200 text-2xl"
-                  href="/"
-                >
-                  Blog
                 </a>
               </li>
             </ul>
@@ -94,22 +70,6 @@ export default function Footer() {
                   Domains
                 </a>
               </li>
-              <li>
-                <a
-                  className="hover:text-gray-900 transition-colors duration-200 text-2xl"
-                  href="/"
-                >
-                  Security
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-gray-900 transition-colors duration-200 text-2xl"
-                  href="/"
-                >
-                  SSL
-                </a>
-              </li>
             </ul>
           </li>
           <li className="space-y-5">
@@ -123,14 +83,6 @@ export default function Footer() {
                   href="/"
                 >
                   Twitter
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-gray-900 transition-colors duration-200 text-2xl"
-                  href="/"
-                >
-                  Facebook
                 </a>
               </li>
               <li>
@@ -192,7 +144,7 @@ export default function Footer() {
               href="/"
               className="text-md text-black transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold tracking-tight"
             >
-              © 2021 Company Inc.
+              © 2023 Company Inc.
             </a>
           </ul>
         </div>
