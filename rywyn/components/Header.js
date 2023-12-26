@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -11,9 +12,15 @@ export default function Header() {
             href="/"
             className="text-lg font-semibold rounded-lg tracking-widest focus:outline-none focus:shadow-outline"
           >
-            <h1 className="text-4xl Avenir tracking-tighter text-gray-900 md:text-4x1 lg:text-3xl">
-              NINE4
-            </h1>
+            {/* <h1 className="text-4xl Avenir tracking-tighter text-gray-900 md:text-4x1 lg:text-3xl">
+              RYWYN
+            </h1> */}
+            <Image 
+              src="/images/Rywyn-Horizontal-Logo.jpeg"
+              alt="rywyn_logo"
+              width={120}
+              height={120}
+            />
           </a>
           <button
             className="text-white cursor-pointer leading-none px-3 py-1 md:hidden outline-none focus:outline-none "
@@ -21,6 +28,7 @@ export default function Header() {
             aria-label="button"
             onClick={() => setNavbarOpen(!navbarOpen)}
           >
+            {/* NAVBAR HAMBURGUER MENU ICON */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -69,6 +77,7 @@ export default function Header() {
                   href="/"
                 >
                   <span className="justify-center">Download</span>
+                  {/* ARROW */}
                   <svg
                     className="w-3 h-3 fill-current text-gray-400 flex ml-2 -mr-1"
                     viewBox="0 0 12 12"
