@@ -88,7 +88,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover:text-gray-900 transition-colors duration-200 font-semibold text-2xl"
-                  href="/"
+                  href="/https://www.instagram.com/rywynfit/"
                 >
                   Instagram
                 </a>
