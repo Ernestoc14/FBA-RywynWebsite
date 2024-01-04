@@ -12,7 +12,7 @@ export default function Main() {
           </p>
           <div className="flex justify-center">
             <a
-              className="inline-flex items-center px-5 py-3 mt-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900"
+              className="inline-flex items-center px-5 py-3 mt-2 font-medium text-black transition duration-500 ease-in-out transform bg-transparent border border-gray-600 rounded-lg bg-gray-900"
               href="https://github.com/r1/nine4-2/"
             >
               <span className="justify-center">Find out more</span>
