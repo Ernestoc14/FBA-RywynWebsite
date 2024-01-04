@@ -31,37 +31,29 @@ export default function Main() {
         <div className="container px-5 mx-auto lg:px-24 ">
           <div className="flex flex-col w-full mb-4 text-left lg:text-center">
             <h1 className="mb-8 text-2xl Avenir font-semibold text-black">
-              Trusted by top-tier product companies
+              Customer Reviews
             </h1>
           </div>
           <div className="grid grid-cols-2 gap-16 mb-16 text-center lg:grid-cols-4">
-            <div className="flex items-center justify-center">
-              <img
-                src="/images/Google-Logo.webp"
-                alt="Google Logo"
-                className="block object-contain h-16 greyC"
-              ></img>
+            {/* Customer Rev 1 */}
+            <div className="flex flex-col justify-center border border-gray-500">
+              <h3>Autor</h3>
+              <p>Coment</p>
             </div>
-            <div className="flex items-center justify-center">
-              <img
-                src="/images/Shopify-Logo.svg"
-                alt="Shopify Logo"
-                className="block object-contain h-16 greyC"
-              ></img>
+            {/* customer rev 2 */}
+            <div className="flex flex-col justify-center border border-gray-500">
+              <h3>Autor</h3>
+              <p>Coment</p>
             </div>
-            <div className="flex items-center justify-center">
-              <img
-                src="/images/Cloudflare-Logo.svg"
-                alt="Cloudflare Logo"
-                className="block object-contain h-16 greyC"
-              ></img>
+            {/* Customer Rev 3 */}
+            <div className="flex flex-col justify-center border border-gray-500">
+              <h3>Autor</h3>
+              <p>Coment</p>
             </div>
-            <div className="flex items-center justify-center">
-              <img
-                src="/images/PayPal-Logo.png"
-                alt="Paypal Logo"
-                className="block object-contain h-16 greyC"
-              ></img>
+            {/* customer rev 4 */}
+            <div className="flex flex-col justify-center border border-gray-500">
+              <h3>Autor</h3>
+              <p>Coment</p>
             </div>
           </div>
         </div>
