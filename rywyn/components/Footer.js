@@ -11,7 +11,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover:text-gray-900 transition-colors duration-200 text-2xl"
-                  href="/https://www.amazon.com/stores/RYWYN/page/A6FED9D2-A089-41E9-929B-182FC57722E9?ref_=ast_bln"
+                  href="https://www.amazon.com/stores/RYWYN/page/A6FED9D2-A089-41E9-929B-182FC57722E9?ref_=ast_bln"
                 >
                   Amazon
                 </a>
@@ -88,7 +88,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover:text-gray-900 transition-colors duration-200 font-semibold text-2xl"
-                  href="/https://www.instagram.com/rywynfit/"
+                  href="https://www.instagram.com/rywynfit/"
                 >
                   Instagram
                 </a>
