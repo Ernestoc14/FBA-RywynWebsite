@@ -1,3 +1,5 @@
+import { reviews } from "@/constants";
+
 export default function Main() {
   return (
     <section className="text-gray-600 body-font">
@@ -13,7 +15,7 @@ export default function Main() {
           <div className="flex justify-center">
             <a
               className="inline-flex items-center px-5 py-3 mt-2 font-medium text-black transition duration-500 ease-in-out transform bg-transparent border border-gray-600 rounded-lg bg-gray-900"
-              href="https://github.com/r1/nine4-2/"
+              href="https://google.com"
             >
               <span className="justify-center">Find out more</span>
             </a>
@@ -29,32 +31,18 @@ export default function Main() {
       </div>
       <section className="mx-auto">
         <div className="container px-5 mx-auto lg:px-24 ">
-          <div className="flex flex-col w-full mb-4 text-left lg:text-center">
-            <h1 className="mb-8 text-2xl Avenir font-semibold text-black">
+          <div className="flex flex-col w-full mb-4 text-center">
+            <h1 className="mb-8 text-6xl Avenir font-semibold text-gray-900">
               Customer Reviews
             </h1>
           </div>
           <div className="grid grid-cols-2 gap-16 mb-16 text-center lg:grid-cols-4">
-            {/* Customer Rev 1 */}
-            <div className="flex flex-col justify-center border border-gray-500">
-              <h3>Autor</h3>
-              <p>Coment</p>
-            </div>
-            {/* customer rev 2 */}
-            <div className="flex flex-col justify-center border border-gray-500">
-              <h3>Autor</h3>
-              <p>Coment</p>
-            </div>
-            {/* Customer Rev 3 */}
-            <div className="flex flex-col justify-center border border-gray-500">
-              <h3>Autor</h3>
-              <p>Coment</p>
-            </div>
-            {/* customer rev 4 */}
-            <div className="flex flex-col justify-center border border-gray-500">
-              <h3>Autor</h3>
-              <p>Coment</p>
-            </div>
+            {reviews.map((review, index) => (
+              <div className="flex flex-col justify-center border border-gray-500">
+                <h3 className="mb-auto font-semibold text-xl">{review.author}</h3>
+                <p className=" text-lg">{review.comment}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -90,7 +78,7 @@ export default function Main() {
               className="border border-gray-600 w-1/4 pr-2 pl-2 py-3 mt-2 rounded-md text-gray-800 font-semibold hover:border-gray-900"
             ></input>{" "}
             <a
-              className="inline-flex items-center px-14 py-3 mt-2 ml-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900"
+              className="inline-flex items-center px-14 py-3 mt-2 ml-2 font-medium text-gray-900 transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900"
               href="/"
             >
               <span className="justify-center">Subscribe</span>
