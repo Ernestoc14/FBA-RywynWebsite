@@ -12,9 +12,6 @@ export default function Header() {
             href="/"
             className="text-lg font-semibold rounded-lg tracking-widest focus:outline-none focus:shadow-outline"
           >
-            {/* <h1 className="text-4xl Avenir tracking-tighter text-gray-900 md:text-4x1 lg:text-3xl">
-              RYWYN
-            </h1> */}
             <Image 
               src="/images/Rywyn-Horizontal-Logo.jpeg"
               alt="rywyn_logo"
@@ -57,10 +54,10 @@ export default function Header() {
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
                 <a
-                  href="/"
+                  href="/products"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Careers
+                  Our Products
                 </a>
               </li>
               <li>
