@@ -18,6 +18,7 @@ async function PricingPage() {
     <div className='grid justify-center items-center md:grid-cols-2 lg:grid-cols-4 gap-x2 bg-white text-black'>
       <h1 className='my-5 text-center'>Pricing</h1>
       {
+        // 20 Min YT Video
         prices.map(price => (
           <div key={price.id} className='mb-2 p-6 border-2 border-red-800'>
             <h3>{price.product.name}</h3>

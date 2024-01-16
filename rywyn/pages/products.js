@@ -12,7 +12,21 @@ export default function Home() {
       </Head>
       <Header />
       {/* <Products /> */}
+      <h1>Products</h1>
+      <p>dfkjaskfj
+        sdafkajfa
+      </p>
+      <p>dfksajf</p>
+      <h1>sdj</h1>
+      <h1>Products</h1>
+      <p>dfkjaskfj
+        sdafkajfa
+      </p>
+      <p>dfksajf</p>
+      <h1>sdj</h1>
       <Footer />
     </div>
   );
 }
+
+// This will be the Products Page where the Products will be shown up
