@@ -1,5 +1,25 @@
 import { NextResponse } from "next/server";
+import { Stripe } from "stripe";
+export async function POST(request) {
+  const { priceId } = await request.json();
 
-export function POST() {
+  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+
+  const session = await stripe.checkout.sessions.create({
+    mode: "payment",
+    payment_method_types: ["card"],
+    line_items: [
+      {
+        price: priceId,
+        quantity: 1,
+      },
+    ],
+    success_url: "http://localhost:3000/success",
+    // `${process.env.URL}/success`,
+    // cancel_url: "http://localhost:3000/pricing",
+  });
+
+  console.log(session);
+
   return NextResponse.json({ message: "checkout" });
 }

@@ -1,11 +1,17 @@
-"use client"
+"use client";
 
-function ButtonCheckout({priceId}) {
+function ButtonCheckout({ priceId }) {
   return (
     <button
       className="bg-slate-300 p-3 rounded-md"
-      onClick={() => {
-        console.log(priceId);
+      onClick={async () => {
+        const res = await fetch("/api/checkout", {
+          method: "POST",
+          body: JSON.stringify({ priceId }),
+          headers: { "Content-Type": "application/json" },
+        });
+        const data = await res.json();
+        console.log(data);
       }}
     >
       BUY
