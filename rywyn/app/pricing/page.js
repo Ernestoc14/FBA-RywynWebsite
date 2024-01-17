@@ -33,7 +33,7 @@ async function PricingPage() {
               />
             </div>
             <ButtonCheckout
-              props={props}
+              priceId={price.id}
             />
           </div>
         ))
