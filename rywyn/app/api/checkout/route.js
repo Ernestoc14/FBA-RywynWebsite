@@ -15,11 +15,13 @@ export async function POST(request) {
       },
     ],
     success_url: "http://localhost:3000/success",
-    // `${process.env.URL}/success`,
-    // cancel_url: "http://localhost:3000/pricing",
+    // 36 Min Video
+    cancel_url: "http://localhost:3000/pricing",
   });
 
   console.log(session);
 
-  return NextResponse.json({ message: "checkout" });
+  return NextResponse.json({ 
+    url: session.url,
+  });
 }
