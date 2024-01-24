@@ -1,9 +1,40 @@
-import React from 'react'
+// import React from 'react'
+
+// function page() {
+//   return (
+//     <div>Success Page</div>
+//   )
+// }
+
+// export default page
+
+import Head from "next/head";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 function page() {
   return (
-    <div>Success Page</div>
-  )
+    <div className="text-black">
+      <Head>
+        <title>Rywyn Resistance Bands</title>
+        <link rel="icon" href="images/" />
+      </Head>
+      <Header />
+      <h1>Products</h1>
+      <p>dfkjaskfj
+        sdafkajfa
+      </p>
+      <p>dfksajf</p>
+      <h1>sdj</h1>
+      <h1>Products</h1>
+      <p>dfkjaskfj
+        sdafkajfa
+      </p>
+      <p>dfksajf</p>
+      <h1>sdj</h1>
+      <Footer />
+    </div>
+  );
 }
 
 export default page
