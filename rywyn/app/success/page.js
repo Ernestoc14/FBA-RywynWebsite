@@ -1,7 +1,7 @@
 import React from "react";
 
 function page() {
-  return <div>Success Page</div>;
+  return <div>Success Page you make the payment with Sripe</div>;
 }
 
 export default page;
