@@ -19,8 +19,6 @@ export async function POST(request) {
     cancel_url: "http://localhost:3000/pricing",
   });
 
-  console.log(session);
-
   return NextResponse.json({ 
     url: session.url,
   });

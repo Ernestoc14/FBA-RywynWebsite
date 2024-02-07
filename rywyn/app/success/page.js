@@ -11,13 +11,12 @@
 import Head from "next/head";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-
 function page() {
   return (
     <div className="text-black">
       <Head>
         <title>Rywyn Resistance Bands</title>
-        <link rel="icon" href="images/" />
+        <link rel="icon" href="public/images/rywyn-logo.jpeg" />
       </Head>
       <Header />
       <h1>Products</h1>

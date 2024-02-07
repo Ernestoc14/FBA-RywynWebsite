@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import Image from "next/image";
 
@@ -13,7 +13,7 @@ export default function Header() {
             href="/"
             className="text-lg font-semibold rounded-lg tracking-widest focus:outline-none focus:shadow-outline"
           >
-            <Image 
+            <Image
               src="/images/Rywyn-Horizontal-Logo.jpeg"
               alt="rywyn_logo"
               width={120}
@@ -63,10 +63,10 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/pricing"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  About Us
+                  Pricing
                 </a>
               </li>
               <li>
